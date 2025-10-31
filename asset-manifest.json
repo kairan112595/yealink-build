@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1ca4e79.css",
-    "main.js": "/static/js/main.3de485af.js",
+    "main.js": "/static/js/main.8364adcf.js",
     "static/media/display.mp4": "/static/media/display.f3745fe3a1bba0ed1bdd.mp4",
     "static/media/sample.mp4": "/static/media/sample.6bd4bf3e5c54a9702a3b.mp4",
     "static/media/room-5-train.png": "/static/media/room-5-train.2c7bd2bd4dae7384a8d3.png",
@@ -14,6 +14,7 @@
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Yealink-camera.fbx": "/static/media/Yealink-camera.22a034689cb6570ba5e7.fbx",
     "static/media/MB86Pro-A02.png": "/static/media/MB86Pro-A02.98f3f9f3967a6b873df5.png",
+    "static/media/Yealink-cameraconnect.fbx": "/static/media/Yealink-cameraconnect.f65b8e451a6d2c1bb41e.fbx",
     "static/media/chair.FBX": "/static/media/chair.a6ad3527d18eb480794f.FBX",
     "static/media/UVC86 Black.png": "/static/media/UVC86 Black.9269ae5b3182f07f33d9.png",
     "static/media/MB-12X Pro.png": "/static/media/MB-12X Pro.c5326c59d9d4cef02def.png",
@@ -61,6 +62,7 @@
     "static/media/logo-1.png": "/static/media/logo-1.844beb8cd8749dde5299.png",
     "static/media/DeskVision A24.png": "/static/media/DeskVision A24.4d699dfd4a2bc080ff3e.png",
     "static/media/MVC S60-C5-000.png": "/static/media/MVC S60-C5-000.0c102310d87cdcad7902.png",
+    "static/media/pd 65.png": "/static/media/pd 65.7546d02d1a4113a98a12.png",
     "static/media/SmartVision 40.png": "/static/media/SmartVision 40.f697e07a84b9ac90fe68.png",
     "static/media/MB-Remote.png": "/static/media/MB-Remote.2598cd1e30056b0f4207.png",
     "static/media/MTouch Plus-Ex Package.png": "/static/media/MTouch Plus-Ex Package.b9ab999cf7840f5d2173.png",
@@ -76,6 +78,7 @@
     "static/media/WPP30.png": "/static/media/WPP30.fdcab905777b055c4a28.png",
     "static/media/VB-TabletopMount-01.png": "/static/media/VB-TabletopMount-01.ab99d6b3a448f6a3988e.png",
     "static/media/UVC30 ContentCamKit.png": "/static/media/UVC30 ContentCamKit.b5f0d6d4e27002665933.png",
+    "static/media/MSpeaker II.png": "/static/media/MSpeaker II.e4f9c5b50b658fe4fe38.png",
     "static/media/CTP18-STD.png": "/static/media/CTP18-STD.6a7d2ffd371b498a7bfa.png",
     "static/media/MVC-BYOD-Extender.png": "/static/media/MVC-BYOD-Extender.4853df2126c91b274d49.png",
     "static/media/VCH51.png": "/static/media/VCH51.47458570d6db8369835d.png",
@@ -86,10 +89,10 @@
     "static/media/TV-Clip Mount.png": "/static/media/TV-Clip Mount.903afef801d55b1f27f3.png",
     "index.html": "/index.html",
     "main.e1ca4e79.css.map": "/static/css/main.e1ca4e79.css.map",
-    "main.3de485af.js.map": "/static/js/main.3de485af.js.map"
+    "main.8364adcf.js.map": "/static/js/main.8364adcf.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ca4e79.css",
-    "static/js/main.3de485af.js"
+    "static/js/main.8364adcf.js"
   ]
 }
