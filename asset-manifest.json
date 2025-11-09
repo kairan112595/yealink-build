@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ca18023.css",
-    "main.js": "/static/js/main.28db5a9c.js",
+    "main.js": "/static/js/main.680c4362.js",
     "static/media/display.mp4": "/static/media/display.f3745fe3a1bba0ed1bdd.mp4",
     "static/media/sample.mp4": "/static/media/sample.6bd4bf3e5c54a9702a3b.mp4",
     "static/media/Yealink-circle.fbx": "/static/media/Yealink-circle.8c55f6c6a382034a7c96.fbx",
@@ -23,10 +23,10 @@
     "static/media/Yealink-minitv.fbx": "/static/media/Yealink-minitv.4402bf41968149c6a37f.fbx",
     "index.html": "/index.html",
     "main.7ca18023.css.map": "/static/css/main.7ca18023.css.map",
-    "main.28db5a9c.js.map": "/static/js/main.28db5a9c.js.map"
+    "main.680c4362.js.map": "/static/js/main.680c4362.js.map"
   },
   "entrypoints": [
     "static/css/main.7ca18023.css",
-    "static/js/main.28db5a9c.js"
+    "static/js/main.680c4362.js"
   ]
 }
