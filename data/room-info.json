@@ -1,0 +1,2163 @@
+[
+    {
+        "id": "single",
+        "name": "Phone Room",
+        "image": "./images/category/room-0-single.png",
+        "capacity": "1-2",
+        "width": 1,
+        "length": 1,
+        "tableInfo": [
+            {
+                "x": 0,
+                "z": 0,
+                "width": 1,
+                "length": 1.5,
+                "dir": "z"
+            }
+        ],
+        "chairInfo": [
+            {
+                "x": 0,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 0,
+                "z": -0.5,
+                "rot": 0
+            }
+        ],
+        "menuInfo": [
+            [
+                {
+                    "label": "A10-010",
+                    "models": [
+                        "TV",
+                        "Eye"
+                    ],
+                    "group": "tv",
+                    "img": "./images/equipment/A10-010.png",
+                    "subLabel": "Teams Room on Android"
+                },
+                {
+                    "label": "DeskVision A24",
+                    "models": [
+                        "MiniTV"
+                    ],
+                    "group": "tv",
+                    "img": "./images/equipment/DeskVision A24.png",
+                    "subLabel": "Teams Room on Windows",
+                    "note": "microsoft-teams-rooms-deskvision-a24"
+                }
+            ],
+            [
+                {
+                    "label": "CTP18-STD",
+                    "parent": [
+                        "A10-010"
+                    ],
+                    "models": [
+                        "Display"
+                    ],
+                    "group": "temp",
+                    "img": "./images/equipment/CTP18-STD.png",
+                    "subLabel": "Touch Console",
+                    "note": "https://support.yealink.com/en/portal/knowledge/show?id=6459d55b0a11b818a7542abe"
+                },
+                {
+                    "label": "DeskVision A24",
+                    "parent": [
+                        "DeskVision A24"
+                    ],
+                    "default": true,
+                    "checked": true,
+                    "group": "temp",
+                    "img": "./images/equipment/DeskVision A24.png",
+                    "subLabel": "All in One Device"
+                }
+            ],
+            [],
+            [
+                {
+                    "label": "RoomPanel E2",
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus E2",
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel Plus E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus Black",
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel Plus Black.png",
+                    "subLabel": "10 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                }
+            ],
+            [
+                {
+                    "label": "Wall Mount",
+                    "group": "tvFix",
+                    "parent": [
+                        "A10-010"
+                    ],
+                    "img": "./images/equipment/Wall Mount.png"
+                },
+                {
+                    "label": "TV-Clip Mount",
+                    "group": "tvFix",
+                    "parent": [
+                        "A10-010"
+                    ],
+                    "img": "./images/equipment/TV-Clip Mount.png"
+                },
+                {
+                    "label": "Place on Table",
+                    "default": true,
+                    "checked": true,
+                    "group": "tvFix",
+                    "parent": [
+                        "DeskVision A24"
+                    ],
+                    "img": "./images/equipment/Place on Table.png"
+                }
+            ],
+            [
+                {
+                    "label": "Capital Techies Partner PrimeCare",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-1.png",
+                    "subLabel": "Service Plan",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "label": "Capital Techies Extended Warranty",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-2.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 3
+                },
+                {
+                    "label": "Yealink Management Cloud Service",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-3.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 5
+                }
+            ]
+        ]
+    },
+    {
+        "id": "small",
+        "name": "Small Room",
+        "image": "./images/category/room-1-small.png",
+        "capacity": "3-7",
+        "width": 3,
+        "length": 4,
+        "tableInfo": [
+            {
+                "x": 0,
+                "z": 0,
+                "width": 1,
+                "length": 2,
+                "dir": "z"
+            }
+        ],
+        "chairInfo": [
+            {
+                "x": -0.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -0.8,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 0,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 0,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 0.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 0.8,
+                "z": -0.5,
+                "rot": 0
+            }
+        ],
+        "menuInfo": [
+            [
+                {
+                    "label": "A40-031",
+                    "models": [
+                        "Eye",
+                        "Display",
+                        "Support"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "group": "tv",
+                    "img": "./images/equipment/A10-010.png",
+                    "subLabel": ""
+                },
+                {
+                    "label": "MB65Pro-A02",
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "other": "TVSupport",
+                    "group": "tv",
+                    "img": "./images/equipment/MB86Pro-A02.png",
+                    "subLabel": "",
+                    "note": "microsoft-teams-rooms-deskvision-a24"
+                }
+            ],
+            [
+                {
+                    "label": "CTP25",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/CTP25.png",
+                    "subLabel": "Touch Console"
+                },
+                {
+                    "label": "VCM35",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "groupModels": [
+                        "Circle"
+                    ],
+                    "group": "circle",
+                    "img": "./images/equipment/VCM35.png",
+                    "subLabel": "Wired Tabletop Mic"
+                },
+                {
+                    "label": "VCM36-W Package",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "groupModels": [
+                        "Circle"
+                    ],
+                    "group": "circle",
+                    "img": "./images/equipment/VCM35.png",
+                    "subLabel": "Wireless Wi-Fi Mic"
+                },
+                {
+                    "label": "VCH51",
+                    "parent": [
+                        "MB65Pro-A02"
+                    ],
+                    "models": [],
+                    "img": "./images/equipment/VCH51.png",
+                    "subLabel": "Content Share & BYOD Box"
+                },
+                {
+                    "label": "MCore-OPS",
+                    "parent": [
+                        "MB65Pro-A02"
+                    ],
+                    "img": "./images/equipment/MCore-OPS.jpg",
+                    "subLabel": "Windows OPS for MeetingBoard series"
+                },
+                {
+                    "label": "MB-Remote",
+                    "parent": [
+                        "MB65Pro-A02"
+                    ],
+                    "img": "./images/equipment/MB-Remote.png",
+                    "subLabel": "Wireless Presenter Remote"
+                },
+                {
+                    "label": "CTP25 ",
+                    "parent": [
+                        "MB65Pro-A02"
+                    ],
+                    "img": "./images/equipment/CTP25.png",
+                    "subLabel": "Touch Console"
+                }
+            ],
+            [],
+            [
+                {
+                    "label": "RoomPanel E2",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus E2",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel Plus E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus Black",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel Plus Black.png",
+                    "subLabel": "10 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                }
+            ],
+            [
+                {
+                    "label": "Wall Mount",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/Wall Mount.png"
+                },
+                {
+                    "label": "TV-Clip Mount",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/TV-Clip Mount.png"
+                },
+                {
+                    "label": "VB-TabletopMount-01",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/VB-TabletopMount-01.png"
+                },
+                {
+                    "label": "VCS-TVMount2",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/VCS-TVMount2.png"
+                },
+                {
+                    "label": "MB-WallMount-650",
+                    "parent": [
+                        "MB65Pro-A02"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/MB-WallMount-860.png"
+                },
+                {
+                    "label": "MB-WallStand-650W",
+                    "parent": [
+                        "MB65Pro-A02"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/MB-WallStand-860W.png"
+                },
+                {
+                    "label": "MB-FS-P650T",
+                    "parent": [
+                        "MB65Pro-A02"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "other": "TVSupport",
+                    "group": "tvFix",
+                    "checked": true,
+                    "img": "./images/equipment/MB-FS-P860T.png"
+                }
+            ],
+            [
+                {
+                    "label": "Capital Techies Partner PrimeCare",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-1.png",
+                    "subLabel": "Service Plan",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "label": "Capital Techies Extended Warranty",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-2.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 3
+                },
+                {
+                    "label": "Yealink Management Cloud Service",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-3.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 5
+                }
+            ]
+        ]
+    },
+    {
+        "id": "medium",
+        "name": "Medium Room",
+        "image": "./images/category/room-2-medium.png",
+        "capacity": "7-12",
+        "width": 4,
+        "length": 6,
+        "tableInfo": [
+            {
+                "x": 0,
+                "z": 0,
+                "width": 1,
+                "length": 4,
+                "dir": "z"
+            }
+        ],
+        "chairInfo": [
+            {
+                "x": -1.6,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -1.6,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": -0.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -0.8,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 0,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 0,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 0.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 0.8,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 1.6,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 1.6,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 2,
+                "z": 0,
+                "rot": -0.5
+            }
+        ],
+        "menuInfo": [
+            [
+                {
+                    "label": "A40-031",
+                    "group": "tv",
+                    "groupModels": [
+                        "Eye",
+                        "Display",
+                        "Support",
+                        "TV"
+                    ],
+                    "img": "./images/equipment/A40+CTP25.png",
+                    "subLabel": ""
+                },
+                {
+                    "label": "A50-031",
+                    "group": "tv",
+                    "groupModels": [
+                        "Eye",
+                        "Display",
+                        "Support",
+                        "TV"
+                    ],
+                    "img": "./images/equipment/A40+CTP25.png",
+                    "subLabel": ""
+                },
+                {
+                    "label": "MB75Pro-A02",
+                    "group": "tv",
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "other": "TVSupport",
+                    "img": "./images/equipment/MB86Pro-A02.png",
+                    "subLabel": "",
+                    "note": ""
+                }
+            ],
+            [
+                {
+                    "label": "CTP25",
+                    "parent": [
+                        "A40-031",
+                        "A50-031"
+                    ],
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/CTP25.png",
+                    "subLabel": "Touch Console"
+                },
+                {
+                    "label": "MB-12X Pro",
+                    "parent": [
+                        "MB75Pro-A02"
+                    ],
+                    "models": [
+                        "Camera"
+                    ],
+                    "img": "./images/equipment/MB-12X Pro.png",
+                    "subLabel": "Optional PTZ Camera"
+                },
+                {
+                    "label": "VCM35",
+                    "groupModels": [
+                        "Circle"
+                    ],
+                    "group": "circle",
+                    "img": "./images/equipment/VCM35.png",
+                    "subLabel": "Wired Tabletop Mic"
+                },
+                {
+                    "label": "VCM36-W Package",
+                    "groupModels": [
+                        "Circle"
+                    ],
+                    "group": "circle",
+                    "img": "./images/equipment/VCM35.png",
+                    "subLabel": "Wireless Wi-Fi Mic"
+                },
+                {
+                    "label": "CM20",
+                    "models": [
+                        "Ceiling"
+                    ],
+                    "parent": [
+                        "A40-031",
+                        "A50-031"
+                    ],
+                    "other": "ceiling",
+                    "img": "./images/equipment/CM20.png",
+                    "subLabel": "Ceiling Mic"
+                },
+                {
+                    "label": "CS10",
+                    "models": [
+                        "CeilingSpeaker"
+                    ],
+                    "parent": [
+                        "A40-031",
+                        "A50-031"
+                    ],
+                    "other": "ceiling",
+                    "clone": 1,
+                    "img": "./images/equipment/CS10-D.png",
+                    "subLabel": "Ceiling Speaker"
+                },
+                {
+                    "label": "VCH51",
+                    "parent": [
+                        "MB75Pro-A02"
+                    ],
+                    "models": [],
+                    "img": "./images/equipment/VCH51.png",
+                    "subLabel": "Content Share & BYOD Box"
+                },
+                {
+                    "label": "MCore-OPS",
+                    "parent": [
+                        "MB75Pro-A02"
+                    ],
+                    "img": "./images/equipment/MCore-OPS.jpg",
+                    "subLabel": "Windows OPS for MeetingBoard series"
+                },
+                {
+                    "label": "MB-Remote",
+                    "parent": [
+                        "MB75Pro-A02"
+                    ],
+                    "img": "./images/equipment/MB-Remote.png",
+                    "subLabel": "Wireless Presenter Remote"
+                },
+                {
+                    "label": "CTP25",
+                    "parent": [
+                        "MB75Pro-A02"
+                    ],
+                    "models": [
+                        "Display"
+                    ],
+                    "img": "./images/equipment/CTP25.png",
+                    "subLabel": "Touch Console"
+                }
+            ],
+            [
+                {
+                    "label": "RCH40 E2",
+                    "parent": [
+                        "A40-031",
+                        "A50-031"
+                    ],
+                    "checked": true,
+                    "img": "./images/equipment/RCH40 E2.png",
+                    "subLabel": "POE Switch"
+                }
+            ],
+            [
+                {
+                    "label": "RoomPanel E2",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus E2",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel Plus E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus Black",
+                    "parent": [
+                        "A40-031"
+                    ],
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel Plus Black.png",
+                    "subLabel": "10 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                }
+            ],
+            [
+                {
+                    "label": "Wall Mount",
+                    "parent": [
+                        "A40-031",
+                        "A50-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/Wall Mount.png"
+                },
+                {
+                    "label": "TV-Clip Mount",
+                    "parent": [
+                        "A40-031",
+                        "A50-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/TV-Clip Mount.png"
+                },
+                {
+                    "label": "VCS-TVMount2",
+                    "parent": [
+                        "A40-031",
+                        "A50-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/VCS-TVMount2.png"
+                },
+                {
+                    "label": "VB-TabletopMount-01",
+                    "parent": [
+                        "A40-031",
+                        "A50-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/VB-TabletopMount-01.png"
+                },
+                {
+                    "label": "MB-WallMount-860",
+                    "parent": [
+                        "MB75Pro-A02"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/MB-WallMount-860.png"
+                },
+                {
+                    "label": "MB-WallStand-860W",
+                    "parent": [
+                        "MB75Pro-A02"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/MB-WallStand-860W.png"
+                },
+                {
+                    "label": "MB-FS-P750T",
+                    "parent": [
+                        "MB75Pro-A02"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "other": "TVSupport",
+                    "group": "tvFix",
+                    "img": "./images/equipment/MB-FS-P860T.png"
+                }
+            ],
+            [
+                {
+                    "label": "Capital Techies Partner PrimeCare",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-1.png",
+                    "subLabel": "Service Plan",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "label": "Capital Techies Extended Warranty",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-2.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 3
+                },
+                {
+                    "label": "Yealink Management Cloud Service",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-3.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 5
+                }
+            ]
+        ]
+    },
+    {
+        "id": "large",
+        "name": "Large Room",
+        "image": "./images/category/room-3-large.png",
+        "capacity": "12-20",
+        "width": 4,
+        "length": 8,
+        "tableInfo": [
+            {
+                "x": 0,
+                "z": 0,
+                "width": 1,
+                "length": 5.6,
+                "dir": "z"
+            }
+        ],
+        "chairInfo": [
+            {
+                "x": -2.4000000000000004,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -2.4000000000000004,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": -1.6,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -1.6,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": -0.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -0.8,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 0,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 0,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 0.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 0.8,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 1.6,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 1.6,
+                "z": -0.5,
+                "rot": 0
+            },
+            {
+                "x": 2.4000000000000004,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 2.4000000000000004,
+                "z": -0.5,
+                "rot": 0
+            }
+        ],
+        "menuInfo": [
+            [
+                {
+                    "label": "A50-031",
+                    "models": [
+                        "Eye",
+                        "Display",
+                        "Support"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "group": "tv",
+                    "img": "./images/equipment/A10-010.png",
+                    "subLabel": ""
+                },
+                {
+                    "label": "MB86Pro-A02",
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "other": "TVSupport",
+                    "group": "tv",
+                    "img": "./images/equipment/MB86Pro-A02.png",
+                    "subLabel": "",
+                    "note": ""
+                }
+            ],
+            [
+                {
+                    "label": "CTP25",
+                    "parent": [
+                        "A50-031"
+                    ],
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/CTP25.png",
+                    "subLabel": "Touch Console"
+                },
+                {
+                    "label": "MB-12X Pro",
+                    "parent": [
+                        "MB86Pro-A02"
+                    ],
+                    "models": [
+                        "Camera"
+                    ],
+                    "img": "./images/equipment/MB-12X Pro.png",
+                    "subLabel": "Optional PTZ Camera"
+                },
+                {
+                    "label": "VCM35",
+                    "groupModels": [
+                        "Circle"
+                    ],
+                    "group": "circle",
+                    "img": "./images/equipment/VCM35.png",
+                    "subLabel": "Wired Tabletop Mic"
+                },
+                {
+                    "label": "VCM36-W Package",
+                    "groupModels": [
+                        "Circle"
+                    ],
+                    "group": "circle",
+                    "img": "./images/equipment/VCM35.png",
+                    "subLabel": "Wireless Wi-Fi Mic"
+                },
+                {
+                    "label": "CM20",
+                    "models": [
+                        "Ceiling"
+                    ],
+                    "parent": [
+                        "A50-031"
+                    ],
+                    "group": "circle",
+                    "other": "ceiling",
+                    "img": "./images/equipment/CM20.png",
+                    "subLabel": "Ceiling Mic"
+                },
+                {
+                    "label": "CS10",
+                    "models": [
+                        "CeilingSpeaker"
+                    ],
+                    "parent": [
+                        "A50-031"
+                    ],
+                    "other": "ceiling",
+                    "clone": 1,
+                    "img": "./images/equipment/CS10-D.png",
+                    "subLabel": "Ceiling Speaker"
+                },
+                {
+                    "label": "VCH51",
+                    "models": [],
+                    "img": "./images/equipment/VCH51.png",
+                    "subLabel": "Content Share & BYOD Box"
+                },
+                {
+                    "label": "MCore-OPS",
+                    "parent": [
+                        "MB86Pro-A02"
+                    ],
+                    "img": "./images/equipment/MCore-OPS.jpg",
+                    "subLabel": "Windows OPS for MeetingBoard series"
+                },
+                {
+                    "label": "MB-Remote",
+                    "parent": [
+                        "MB86Pro-A02"
+                    ],
+                    "img": "./images/equipment/MB-Remote.png",
+                    "subLabel": "Wireless Presenter Remote"
+                },
+                {
+                    "label": "CTP25",
+                    "parent": [
+                        "MB86Pro-A02"
+                    ],
+                    "models": [
+                        "Display"
+                    ],
+                    "img": "./images/equipment/CTP25.png",
+                    "subLabel": "Touch Console"
+                }
+            ],
+            [
+                {
+                    "label": "RCH40 E2",
+                    "parent": [
+                        "VCH51"
+                    ],
+                    "checked": true,
+                    "img": "./images/equipment/RCH40 E2.png",
+                    "subLabel": "POE Switch"
+                }
+            ],
+            [
+                {
+                    "label": "UVC30 ContentCamKit",
+                    "parent": [
+                        "A50-031"
+                    ],
+                    "img": "./images/equipment/UVC30 ContentCamKit.png",
+                    "subLabel": "Content Camera",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel E2",
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus E2",
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel Plus E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus Black",
+                    "group": "outDisplay",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "img": "./images/equipment/RoomPanel Plus Black.png",
+                    "subLabel": "10 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                }
+            ],
+            [
+                {
+                    "label": "Wall Mount",
+                    "parent": [
+                        "A50-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/Wall Mount.png"
+                },
+                {
+                    "label": "VB-TabletopMount-02",
+                    "parent": [
+                        "A50-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/VB-TabletopMount-01.png"
+                },
+                {
+                    "label": "VB-TVMount-01",
+                    "parent": [
+                        "A50-031"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/VB-TVMount-01.png"
+                },
+                {
+                    "label": "MB-WallMount-860",
+                    "parent": [
+                        "MB86Pro-A02"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/MB-WallMount-860.png"
+                },
+                {
+                    "label": "MB-WallStand-860W",
+                    "parent": [
+                        "MB86Pro-A02"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "group": "tvFix",
+                    "img": "./images/equipment/MB-WallStand-860W.png"
+                },
+                {
+                    "label": "MB-FS-P860T",
+                    "parent": [
+                        "MB86Pro-A02"
+                    ],
+                    "groupModels": [
+                        "TV"
+                    ],
+                    "other": "TVSupport",
+                    "group": "tvFix",
+                    "img": "./images/equipment/MB-FS-P860T.png"
+                }
+            ],
+            [
+                {
+                    "label": "Capital Techies Partner PrimeCare",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-1.png",
+                    "subLabel": "Service Plan",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "label": "Capital Techies Extended Warranty",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-2.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 3
+                },
+                {
+                    "label": "Yealink Management Cloud Service",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-1.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 5
+                }
+            ]
+        ]
+    },
+    {
+        "id": "uShape",
+        "name": "U-Shape Room",
+        "image": "./images/category/room-4-u.png",
+        "capacity": "20-30",
+        "width": 6,
+        "length": 10,
+        "tableInfo": [
+            {
+                "x": 0,
+                "z": 1.2,
+                "width": 1,
+                "length": 5.6,
+                "dir": "z"
+            },
+            {
+                "x": 0,
+                "z": -1.2,
+                "width": 1,
+                "length": 5.6,
+                "dir": "z"
+            },
+            {
+                "x": -3.2,
+                "z": 0,
+                "width": 3.4,
+                "length": 1,
+                "dir": "x",
+                "hideDir": 1
+            }
+        ],
+        "chairInfo": [
+            {
+                "x": -2.4000000000000004,
+                "z": 1.7,
+                "rot": 1
+            },
+            {
+                "x": -2.4000000000000004,
+                "z": 0.7,
+                "rot": 0
+            },
+            {
+                "x": -1.6,
+                "z": 1.7,
+                "rot": 1
+            },
+            {
+                "x": -1.6,
+                "z": 0.7,
+                "rot": 0
+            },
+            {
+                "x": -0.8,
+                "z": 1.7,
+                "rot": 1
+            },
+            {
+                "x": -0.8,
+                "z": 0.7,
+                "rot": 0
+            },
+            {
+                "x": 0,
+                "z": 1.7,
+                "rot": 1
+            },
+            {
+                "x": 0,
+                "z": 0.7,
+                "rot": 0
+            },
+            {
+                "x": 0.8,
+                "z": 1.7,
+                "rot": 1
+            },
+            {
+                "x": 0.8,
+                "z": 0.7,
+                "rot": 0
+            },
+            {
+                "x": 1.6,
+                "z": 1.7,
+                "rot": 1
+            },
+            {
+                "x": 1.6,
+                "z": 0.7,
+                "rot": 0
+            },
+            {
+                "x": 2.4000000000000004,
+                "z": 1.7,
+                "rot": 1
+            },
+            {
+                "x": 2.4000000000000004,
+                "z": 0.7,
+                "rot": 0
+            },
+            {
+                "x": -2.4000000000000004,
+                "z": -0.7,
+                "rot": 1
+            },
+            {
+                "x": -2.4000000000000004,
+                "z": -1.7,
+                "rot": 0
+            },
+            {
+                "x": -1.6,
+                "z": -0.7,
+                "rot": 1
+            },
+            {
+                "x": -1.6,
+                "z": -1.7,
+                "rot": 0
+            },
+            {
+                "x": -0.8,
+                "z": -0.7,
+                "rot": 1
+            },
+            {
+                "x": -0.8,
+                "z": -1.7,
+                "rot": 0
+            },
+            {
+                "x": 0,
+                "z": -0.7,
+                "rot": 1
+            },
+            {
+                "x": 0,
+                "z": -1.7,
+                "rot": 0
+            },
+            {
+                "x": 0.8,
+                "z": -0.7,
+                "rot": 1
+            },
+            {
+                "x": 0.8,
+                "z": -1.7,
+                "rot": 0
+            },
+            {
+                "x": 1.6,
+                "z": -0.7,
+                "rot": 1
+            },
+            {
+                "x": 1.6,
+                "z": -1.7,
+                "rot": 0
+            },
+            {
+                "x": 2.4000000000000004,
+                "z": -0.7,
+                "rot": 1
+            },
+            {
+                "x": 2.4000000000000004,
+                "z": -1.7,
+                "rot": 0
+            },
+            {
+                "x": -3.7,
+                "z": -1.6,
+                "rot": 0.5
+            },
+            {
+                "x": -3.7,
+                "z": -0.8,
+                "rot": 0.5
+            },
+            {
+                "x": -3.7,
+                "z": 0,
+                "rot": 0.5
+            },
+            {
+                "x": -3.7,
+                "z": 0.8,
+                "rot": 0.5
+            },
+            {
+                "x": -3.7,
+                "z": 1.6,
+                "rot": 0.5
+            }
+        ],
+        "menuInfo": [
+            [
+                {
+                    "label": "ZVC860-C5-000",
+                    "checked": true,
+                    "groupModels": [
+                        "TV",
+                        "Camera",
+                        "Display",
+                        "Support"
+                    ],
+                    "group": "tv",
+                    "img": "./images/equipment/ZVC860-C5-000.png",
+                    "subLabel": ""
+                },
+                {
+                    "label": "ZVC S90-C5-004",
+                    "groupModels": [
+                        "TV",
+                        "Camera",
+                        "Display",
+                        "Support"
+                    ],
+                    "group": "tv",
+                    "img": "./images/equipment/ZVC S90-C5-004.png",
+                    "subLabel": ""
+                },
+                {
+                    "label": "ZVC S80-C5U-000",
+                    "groupModels": [
+                        "TV",
+                        "Camera",
+                        "Display",
+                        "Support"
+                    ],
+                    "group": "tv",
+                    "img": "./images/equipment/ZVC S80-C5U-000.png",
+                    "subLabel": ""
+                },
+                {
+                    "label": "ZVC S90-C5U-004",
+                    "groupModels": [
+                        "TV",
+                        "Camera",
+                        "Display",
+                        "Support"
+                    ],
+                    "group": "tv",
+                    "img": "./images/equipment/ZVC S90-C5U-004.png",
+                    "subLabel": ""
+                },
+                {
+                    "label": "ZVC S98-C5U-004",
+                    "groupModels": [
+                        "TV",
+                        "Camera",
+                        "Display",
+                        "Support"
+                    ],
+                    "group": "tv",
+                    "img": "./images/equipment/ZVC S98-C5U-004.png",
+                    "subLabel": ""
+                }
+            ],
+            [
+                {
+                    "label": "UVC86 Black",
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/UVC86 Black.png",
+                    "subLabel": "4K PTZ Tracking Camera"
+                },
+                {
+                    "label": "VCM35",
+                    "groupModels": [
+                        "Circle"
+                    ],
+                    "group": "circle",
+                    "img": "./images/equipment/VCM35.png",
+                    "subLabel": "Wired Tabletop Mic"
+                },
+                {
+                    "label": "VCM36-W Package",
+                    "groupModels": [
+                        "Circle"
+                    ],
+                    "group": "circle",
+                    "img": "./images/equipment/VCM35.png",
+                    "subLabel": "Wireless Wi-Fi Mic"
+                },
+                {
+                    "label": "CM20",
+                    "models": [
+                        "Ceiling"
+                    ],
+                    "other": "ceiling",
+                    "clone": 1,
+                    "img": "./images/equipment/CM20.png",
+                    "subLabel": "Ceiling Mic"
+                },
+                {
+                    "label": "CS10",
+                    "models": [
+                        "CeilingSpeaker"
+                    ],
+                    "other": "ceiling",
+                    "clone": 3,
+                    "img": "./images/equipment/CS10-D.png",
+                    "subLabel": "Ceiling Speaker"
+                },
+                {
+                    "label": "MSpeakerII Black",
+                    "models": [
+                        "MSpeaker"
+                    ],
+                    "parent": [
+                        "ZVC S90-C5-004",
+                        "ZVC S90-C5U-004",
+                        "ZVC S98-C5U-004"
+                    ],
+                    "img": "./images/equipment/MSpeaker II.png",
+                    "subLabel": "BYOD Extender"
+                },
+                {
+                    "label": "MVC-BYOD-Extender",
+                    "parent": [
+                        "ZVC S90-C5-004",
+                        "ZVC S90-C5U-004",
+                        "ZVC S98-C5U-004"
+                    ],
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/MVC-BYOD-Extender.png",
+                    "subLabel": "BYOD Extender"
+                },
+                {
+                    "label": "AV-Hub",
+                    "parent": [
+                        "ZVC S90-C5-004",
+                        "ZVC S90-C5U-004",
+                        "ZVC S98-C5U-004"
+                    ],
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/AV-Hub.png",
+                    "subLabel": "BYOD Extender"
+                },
+                {
+                    "label": "MTouch Plus",
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/MTouch Plus.png",
+                    "subLabel": "ZR Touch Console"
+                }
+            ],
+            [
+                {
+                    "label": "RCH40 E2",
+                    "checked": true,
+                    "img": "./images/equipment/RCH40 E2.png",
+                    "subLabel": "POE Switch"
+                }
+            ],
+            [
+                {
+                    "label": "UVC30 ContentCamKit",
+                    "models": [
+                        "CameraConnect"
+                    ],
+                    "img": "./images/equipment/UVC30 ContentCamKit.png",
+                    "subLabel": "Content Camera"
+                },
+                {
+                    "label": "RoomPanel E2",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "group": "outDisplay",
+                    "img": "./images/equipment/RoomPanel E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus E2",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "group": "outDisplay",
+                    "img": "./images/equipment/RoomPanel Plus E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus Black",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "group": "outDisplay",
+                    "img": "./images/equipment/RoomPanel Plus Black.png",
+                    "subLabel": "10 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                }
+            ],
+            [
+                {
+                    "label": "UVC8X Mount Kits",
+                    "img": "./images/equipment/UVC8X Mount Kits.png"
+                },
+                {
+                    "label": "PSU-PD65W-USBC/USBC(1.5M)",
+                    "img": "./images/equipment/pd 65.png"
+                },
+                {
+                    "label": "USB2CAT5E-EXT",
+                    "img": "./images/equipment/USB2CAT5E-EXT.png"
+                },
+                {
+                    "label": "USB2-EXT-5M",
+                    "img": "./images/equipment/USB2-EXT-5M.png"
+                },
+                {
+                    "label": "USB2-EXT-10M",
+                    "img": "./images/equipment/USB2-EXT-10M.png"
+                }
+            ],
+            [
+                {
+                    "label": "Capital Techies Partner PrimeCare",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-1.png",
+                    "subLabel": "Service Plan",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "label": "Capital Techies Extended Warranty",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-2.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 3
+                },
+                {
+                    "label": "Yealink Management Cloud Service",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-3.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 5
+                }
+            ]
+        ]
+    },
+    {
+        "id": "train",
+        "name": "Training Room",
+        "image": "./images/category/room-5-train.png",
+        "capacity": "20-40",
+        "width": 8,
+        "length": 15,
+        "tableInfo": [
+            {
+                "x": -6,
+                "z": -2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": -6,
+                "z": 0,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": -6,
+                "z": 2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": -3,
+                "z": -2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": -3,
+                "z": 0,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": -3,
+                "z": 2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": 0,
+                "z": -2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": 0,
+                "z": 0,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": 0,
+                "z": 2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": 3,
+                "z": -2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": 3,
+                "z": 0,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": 3,
+                "z": 2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": 6,
+                "z": -2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": 6,
+                "z": 0,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            },
+            {
+                "x": 6,
+                "z": 2,
+                "width": 1,
+                "length": 2,
+                "dir": "z",
+                "hideDir": -1
+            }
+        ],
+        "chairInfo": [
+            {
+                "x": -6.8,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": -6,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": -5.2,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": -6.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -6,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -5.2,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -6.8,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": -6,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": -5.2,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": -3.8,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": -3,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": -2.2,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": -3.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -3,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -2.2,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -3.8,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": -3,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": -2.2,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": -0.8,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": 0,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": 0.8,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": -0.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 0,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 0.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": -0.8,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": 0,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": 0.8,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": 2.2,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": 3,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": 3.8,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": 2.2,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 3,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 3.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 2.2,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": 3,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": 3.8,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": 5.2,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": 6,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": 6.8,
+                "z": -1.5,
+                "rot": 1
+            },
+            {
+                "x": 5.2,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 6,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 6.8,
+                "z": 0.5,
+                "rot": 1
+            },
+            {
+                "x": 5.2,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": 6,
+                "z": 2.5,
+                "rot": 1
+            },
+            {
+                "x": 6.8,
+                "z": 2.5,
+                "rot": 1
+            }
+        ],
+        "menuInfo": [
+            [
+                {
+                    "label": "ZVC S90-C5-004",
+                    "checked": true,
+                    "group": "tv",
+                    "img": "./images/equipment/ZVC S90-C5-004.png",
+                    "subLabel": ""
+                },
+                {
+                    "label": "ZVC S90-C5-004 ",
+                    "group": "tv",
+                    "other": "interWall",
+                    "img": "./images/equipment/ZVC S90-C5-004.png",
+                    "subLabel": "",
+                    "note": ""
+                }
+            ],
+            [
+                {
+                    "label": "AV-Hub",
+                    "checked": true,
+                    "img": "./images/equipment/AV-Hub.png",
+                    "subLabel": "BYOD Extender"
+                },
+                {
+                    "label": "UVC86 Black",
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/UVC86 Black.png",
+                    "subLabel": "4K PTZ Tracking Camera"
+                },
+                {
+                    "label": "CM20",
+                    "models": [
+                        "Ceiling"
+                    ],
+                    "default": true,
+                    "checked": true,
+                    "other": "ceiling",
+                    "clone": 1,
+                    "img": "./images/equipment/CM20.png",
+                    "subLabel": "Ceiling Mic"
+                },
+                {
+                    "label": "CS10",
+                    "models": [
+                        "CeilingSpeaker"
+                    ],
+                    "default": true,
+                    "checked": true,
+                    "other": "ceiling",
+                    "clone": 3,
+                    "img": "./images/equipment/CS10-D.png",
+                    "subLabel": "Ceiling Speaker"
+                },
+                {
+                    "label": "MVC-BYOD-Extender",
+                    "parent": [
+                        "ZVC S90-C5-004",
+                        "ZVC S90-C5U-004",
+                        "ZVC S98-C5U-004"
+                    ],
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/MVC-BYOD-Extender.png",
+                    "subLabel": "BYOD Extender"
+                },
+                {
+                    "label": "MTouch Plus",
+                    "default": true,
+                    "checked": true,
+                    "img": "./images/equipment/MTouch Plus.png",
+                    "subLabel": "ZR Touch Console"
+                },
+                {
+                    "label": "MTouch Plus-Ex Package",
+                    "img": "./images/equipment/MTouch Plus-Ex Package.png",
+                    "subLabel": "Extended Touch Console"
+                }
+            ],
+            [
+                {
+                    "label": "RCH40 E2",
+                    "checked": true,
+                    "img": "./images/equipment/RCH40 E2.png",
+                    "subLabel": "POE Switch"
+                }
+            ],
+            [
+                {
+                    "label": "UVC30 ContentCamKit",
+                    "models": [
+                        "CameraConnect"
+                    ],
+                    "img": "./images/equipment/UVC30 ContentCamKit.png",
+                    "subLabel": "Content Camera"
+                },
+                {
+                    "label": "RoomPanel E2",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "group": "outDisplay",
+                    "img": "./images/equipment/RoomPanel E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus E2",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "group": "outDisplay",
+                    "img": "./images/equipment/RoomPanel Plus E2.png",
+                    "subLabel": "8 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                },
+                {
+                    "label": "RoomPanel Plus Black",
+                    "groupModels": [
+                        "Door"
+                    ],
+                    "group": "outDisplay",
+                    "img": "./images/equipment/RoomPanel Plus Black.png",
+                    "subLabel": "10 Inch Scheduling Display",
+                    "note": "meetingdisplay"
+                }
+            ],
+            [
+                {
+                    "label": "UVC8X Mount Kits",
+                    "img": "./images/equipment/UVC8X Mount Kits.png"
+                },
+                {
+                    "label": "PSU-PD65W-USBC/USBC(1.5M)",
+                    "img": "./images/equipment/pd 65.png"
+                },
+                {
+                    "label": "USB2CAT5E-EXT",
+                    "img": "./images/equipment/USB2CAT5E-EXT.png"
+                },
+                {
+                    "label": "USB2-EXT-5M",
+                    "img": "./images/equipment/USB2-EXT-5M.png"
+                },
+                {
+                    "label": "USB2-EXT-10M",
+                    "img": "./images/equipment/USB2-EXT-10M.png"
+                }
+            ],
+            [
+                {
+                    "label": "Capital Techies Partner PrimeCare",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-1.png",
+                    "subLabel": "Service Plan",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "label": "Capital Techies Extended Warranty",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-2.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 3
+                },
+                {
+                    "label": "Yealink Management Cloud Service",
+                    "group": "logo",
+                    "img": "./images/equipment/logo-1.png",
+                    "subLabel": "Service Plan",
+                    "min": 1,
+                    "max": 5
+                }
+            ]
+        ]
+    }
+]
